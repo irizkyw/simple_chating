@@ -53,7 +53,7 @@ class Server:
 
             
 if __name__ == "__main__":
-    HOST = '192.168.1.102'
+    HOST = 'sister.cyclic.cloud'
     PORT = 8000
     print("Server started")
     server = Server(HOST, PORT)
