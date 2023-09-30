@@ -54,7 +54,7 @@ class Server:
             
 if __name__ == "__main__":
     HOST = 'sister.cyclic.cloud'
-    PORT = 8000
+    PORT = 3000
     print("Server started")
     server = Server(HOST, PORT)
     print("Waiting for clients")
